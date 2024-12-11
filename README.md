@@ -4,5 +4,5 @@ The human whole-brain single-cell data used in this study were obtained from htt
 ## Code
 Included are the codes necessary to replicate the analyses.
 
-## Code
+## Data
 Included are the proportion of different cell clusters in various brain regions (cluster_density_df.csv), strength of resting-state functional networks at different cut off (degree_centrality.csv) and pseudobulk data of different cell clusters in  cortical regions (cluster_pseudobulk)
