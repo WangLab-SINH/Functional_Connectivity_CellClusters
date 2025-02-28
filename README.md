@@ -10,10 +10,10 @@ Before running the analysis, ensure that you have the following prerequisites:
 
 # Code
 Included are the codes necessary to replicate the analyses. All the codes takes approximately two days to run completely.
-clusterPls.m and genePls.m are MATLAB functions used to calculate the cell clusters and genes associated with the connectivity strength of resting-state functional network nodes.
-preprocess_cortical_seuratdata.R is an R script used for preprocessing the downloaded single-cell data from different brain regions and calculating the proportion of different cell clusters in each brain region.
-corticalregion_cluster_pseudobulk.R is an R script used to calculate the pseudobulk gene expression levels of different cell clusters in different brain regions and perform normalization.
-neuronchat_ana.R is an R script used to calculate the cell communication strength between different cell clusters across different brain regions and within regions.
+- clusterPls.m and genePls.m are MATLAB functions used to calculate the cell clusters and genes associated with the connectivity strength of resting-state functional network nodes.
+- preprocess_cortical_seuratdata.R is an R script used for preprocessing the downloaded single-cell data from different brain regions and calculating the proportion of different cell clusters in each brain region.
+- corticalregion_cluster_pseudobulk.R is an R script used to calculate the pseudobulk gene expression levels of different cell clusters in different brain regions and perform normalization.
+- neuronchat_ana.R is an R script used to calculate the cell communication strength between different cell clusters across different brain regions and within regions.
 
 # Data
 Included are the proportions of different cell clusters in various brain regions (cluster_density_df.csv), the strength of resting-state functional networks at different cut-offs (degree_centrality.csv), and normalized pseudobulk data of different cell clusters in cortical regions (cluster_pseudobulk).
